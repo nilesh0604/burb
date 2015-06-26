@@ -1,0 +1,7 @@
+<div class="btn-group btn-group-justified mainmenu" role="group" aria-label="...">
+	{#topNav}
+		<div class="btn-group" role="group">
+			<a href="/{$idx}{url}" class="btn btn-default {@eq key="{$idx}" value="{maindx}"}active{/eq}">{name}</a>
+		</div>
+	{/topNav}
+</div>

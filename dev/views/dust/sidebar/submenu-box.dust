@@ -1,0 +1,14 @@
+<div class="panel panel-default">
+	<div class="panel-heading" style="height: 35px;">
+		<h3 id="productCategoryHead" data-link="/mens-tailoring-suits/" class="panel-title pull-left mouse-click-pointer">
+			{panelTitle}
+		</h3>
+	</div>
+	<div id="subMenu_items" class="panel-body">
+		<div class="">
+			{#shelves}
+				<a href="/{maindx}/{$idx}{url}" class="list-group-item mouse-click-pointer {@eq key="{$idx}" value="{subdx}"}active{/eq}">{name}</a>
+			{/shelves}
+		</div>
+	</div>
+</div>

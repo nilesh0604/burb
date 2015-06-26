@@ -1,0 +1,270 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update',
+1 verbose cli   '--save' ]
+2 info using npm@2.7.4
+3 info using node@v0.12.2
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 silly mapToRegistry name body-parser
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry https://registry.npmjs.org/
+8 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+9 silly mapToRegistry name dustjs-helpers
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/dustjs-helpers
+13 silly mapToRegistry name dustjs-linkedin
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/dustjs-linkedin
+17 silly mapToRegistry name errorhandler
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/errorhandler
+21 silly mapToRegistry name express
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/express
+25 silly mapToRegistry name express-session
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/express-session
+29 silly mapToRegistry name morgan
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/morgan
+33 silly mapToRegistry name node-rest-client
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/node-rest-client
+37 silly mapToRegistry name nodealytics
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/nodealytics
+41 verbose request uri https://registry.npmjs.org/dustjs-helpers
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 5:20:43 PM
+44 verbose request id 523f59e6e94bd093
+45 verbose etag "3MUK4RBFHS5C19PL76DHYKKA0"
+46 http request GET https://registry.npmjs.org/dustjs-helpers
+47 verbose request uri https://registry.npmjs.org/dustjs-linkedin
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 5:20:43 PM
+50 verbose etag "550CQ6CO4LVWEKAP41YJTWV2H"
+51 http request GET https://registry.npmjs.org/dustjs-linkedin
+52 verbose request uri https://registry.npmjs.org/body-parser
+53 verbose request no auth needed
+54 info attempt registry request try #1 at 5:20:43 PM
+55 verbose etag "F589Q9ZM1Z9GELNL7UZBOW6C8"
+56 http request GET https://registry.npmjs.org/body-parser
+57 verbose request uri https://registry.npmjs.org/errorhandler
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 5:20:43 PM
+60 verbose etag "3Y0NLPWJ7NB8D26HT53Z0WY4"
+61 http request GET https://registry.npmjs.org/errorhandler
+62 verbose request uri https://registry.npmjs.org/node-rest-client
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 5:20:43 PM
+65 verbose etag "DVCOM9FM4SQ0O650ZV37SPJVS"
+66 http request GET https://registry.npmjs.org/node-rest-client
+67 verbose request uri https://registry.npmjs.org/morgan
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 5:20:43 PM
+70 verbose etag "2LMEF977TR0XZ9OVWJ18U736U"
+71 http request GET https://registry.npmjs.org/morgan
+72 verbose request uri https://registry.npmjs.org/express-session
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 5:20:43 PM
+75 verbose etag "9OHNLV17ZY2OPO9I6F2MTA8U"
+76 http request GET https://registry.npmjs.org/express-session
+77 verbose request uri https://registry.npmjs.org/nodealytics
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 5:20:43 PM
+80 verbose etag "7T7QKLS9I2EQ3HPYZ4DUG3XHN"
+81 http request GET https://registry.npmjs.org/nodealytics
+82 verbose request uri https://registry.npmjs.org/express
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 5:20:43 PM
+85 verbose etag "993HP51R7OU8AU4JMZBHUD0J4"
+86 http request GET https://registry.npmjs.org/express
+87 http 304 https://registry.npmjs.org/body-parser
+88 silly get cb [ 304,
+88 silly get   { date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+88 silly get     via: '1.1 varnish',
+88 silly get     'cache-control': 'max-age=60',
+88 silly get     etag: '"F589Q9ZM1Z9GELNL7UZBOW6C8"',
+88 silly get     age: '46',
+88 silly get     connection: 'keep-alive',
+88 silly get     'x-served-by': 'cache-fra1241-FRA',
+88 silly get     'x-cache': 'HIT',
+88 silly get     'x-cache-hits': '1',
+88 silly get     'x-timer': 'S1435310445.216328,VS0,VE1',
+88 silly get     vary: 'Accept' } ]
+89 verbose etag https://registry.npmjs.org/body-parser from cache
+90 verbose get saving body-parser to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+91 http 304 https://registry.npmjs.org/morgan
+92 silly get cb [ 304,
+92 silly get   { date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+92 silly get     via: '1.1 varnish',
+92 silly get     'cache-control': 'max-age=60',
+92 silly get     etag: '"2LMEF977TR0XZ9OVWJ18U736U"',
+92 silly get     age: '0',
+92 silly get     connection: 'keep-alive',
+92 silly get     'x-served-by': 'cache-fra1236-FRA',
+92 silly get     'x-cache': 'HIT',
+92 silly get     'x-cache-hits': '1',
+92 silly get     'x-timer': 'S1435310445.221855,VS0,VE1',
+92 silly get     vary: 'Accept' } ]
+93 verbose etag https://registry.npmjs.org/morgan from cache
+94 verbose get saving morgan to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\morgan\.cache.json
+95 http 304 https://registry.npmjs.org/errorhandler
+96 silly get cb [ 304,
+96 silly get   { date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+96 silly get     via: '1.1 varnish',
+96 silly get     'cache-control': 'max-age=60',
+96 silly get     etag: '"3Y0NLPWJ7NB8D26HT53Z0WY4"',
+96 silly get     age: '6',
+96 silly get     connection: 'keep-alive',
+96 silly get     'x-served-by': 'cache-fra1231-FRA',
+96 silly get     'x-cache': 'HIT',
+96 silly get     'x-cache-hits': '1',
+96 silly get     'x-timer': 'S1435310445.247804,VS0,VE0',
+96 silly get     vary: 'Accept' } ]
+97 verbose etag https://registry.npmjs.org/errorhandler from cache
+98 verbose get saving errorhandler to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\errorhandler\.cache.json
+99 http 304 https://registry.npmjs.org/express-session
+100 silly get cb [ 304,
+100 silly get   { date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+100 silly get     via: '1.1 varnish',
+100 silly get     'cache-control': 'max-age=60',
+100 silly get     etag: '"9OHNLV17ZY2OPO9I6F2MTA8U"',
+100 silly get     age: '50',
+100 silly get     connection: 'keep-alive',
+100 silly get     'x-served-by': 'cache-fra1237-FRA',
+100 silly get     'x-cache': 'HIT',
+100 silly get     'x-cache-hits': '1',
+100 silly get     'x-timer': 'S1435310445.257057,VS0,VE0',
+100 silly get     vary: 'Accept' } ]
+101 verbose etag https://registry.npmjs.org/express-session from cache
+102 verbose get saving express-session to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\express-session\.cache.json
+103 http 304 https://registry.npmjs.org/dustjs-helpers
+104 silly get cb [ 304,
+104 silly get   { date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+104 silly get     via: '1.1 varnish',
+104 silly get     'cache-control': 'max-age=60',
+104 silly get     etag: '"3MUK4RBFHS5C19PL76DHYKKA0"',
+104 silly get     age: '0',
+104 silly get     connection: 'keep-alive',
+104 silly get     'x-served-by': 'cache-fra1228-FRA',
+104 silly get     'x-cache': 'HIT',
+104 silly get     'x-cache-hits': '1',
+104 silly get     'x-timer': 'S1435310445.214925,VS0,VE177',
+104 silly get     vary: 'Accept' } ]
+105 verbose etag https://registry.npmjs.org/dustjs-helpers from cache
+106 verbose get saving dustjs-helpers to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\dustjs-helpers\.cache.json
+107 http 304 https://registry.npmjs.org/dustjs-linkedin
+108 silly get cb [ 304,
+108 silly get   { date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+108 silly get     via: '1.1 varnish',
+108 silly get     'cache-control': 'max-age=60',
+108 silly get     etag: '"550CQ6CO4LVWEKAP41YJTWV2H"',
+108 silly get     age: '0',
+108 silly get     connection: 'keep-alive',
+108 silly get     'x-served-by': 'cache-fra1226-FRA',
+108 silly get     'x-cache': 'HIT',
+108 silly get     'x-cache-hits': '1',
+108 silly get     'x-timer': 'S1435310445.223500,VS0,VE397',
+108 silly get     vary: 'Accept' } ]
+109 verbose etag https://registry.npmjs.org/dustjs-linkedin from cache
+110 verbose get saving dustjs-linkedin to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\dustjs-linkedin\.cache.json
+111 http 304 https://registry.npmjs.org/node-rest-client
+112 silly get cb [ 304,
+112 silly get   { date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+112 silly get     via: '1.1 varnish',
+112 silly get     'cache-control': 'max-age=60',
+112 silly get     etag: '"DVCOM9FM4SQ0O650ZV37SPJVS"',
+112 silly get     age: '0',
+112 silly get     connection: 'keep-alive',
+112 silly get     'x-served-by': 'cache-fra1246-FRA',
+112 silly get     'x-cache': 'MISS',
+112 silly get     'x-cache-hits': '0',
+112 silly get     'x-timer': 'S1435310445.225472,VS0,VE420',
+112 silly get     vary: 'Accept' } ]
+113 verbose etag https://registry.npmjs.org/node-rest-client from cache
+114 verbose get saving node-rest-client to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\node-rest-client\.cache.json
+115 http 304 https://registry.npmjs.org/nodealytics
+116 silly get cb [ 304,
+116 silly get   { date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+116 silly get     via: '1.1 varnish',
+116 silly get     'cache-control': 'max-age=60',
+116 silly get     etag: '"7T7QKLS9I2EQ3HPYZ4DUG3XHN"',
+116 silly get     age: '0',
+116 silly get     connection: 'keep-alive',
+116 silly get     'x-served-by': 'cache-fra1236-FRA',
+116 silly get     'x-cache': 'MISS',
+116 silly get     'x-cache-hits': '0',
+116 silly get     'x-timer': 'S1435310445.250796,VS0,VE426',
+116 silly get     vary: 'Accept' } ]
+117 verbose etag https://registry.npmjs.org/nodealytics from cache
+118 verbose get saving nodealytics to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\nodealytics\.cache.json
+119 http 200 https://registry.npmjs.org/express
+120 silly get cb [ 200,
+120 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+120 silly get     etag: '"MMDWUJM5X6CFJTNRM6PRY5SY"',
+120 silly get     'content-type': 'application/json',
+120 silly get     'cache-control': 'max-age=60',
+120 silly get     'content-length': '506063',
+120 silly get     'accept-ranges': 'bytes',
+120 silly get     date: 'Fri, 26 Jun 2015 09:20:45 GMT',
+120 silly get     via: '1.1 varnish',
+120 silly get     age: '10',
+120 silly get     connection: 'keep-alive',
+120 silly get     'x-served-by': 'cache-fra1244-FRA',
+120 silly get     'x-cache': 'HIT',
+120 silly get     'x-cache-hits': '1',
+120 silly get     'x-timer': 'S1435310445.230464,VS0,VE2',
+120 silly get     vary: 'Accept' } ]
+121 verbose get saving express to C:\Users\Nilesh_Shinde\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+122 verbose outdated not updating dustjs-helpers because it's currently at the maximum version that matches its specified semver range
+123 verbose outdated not updating dustjs-linkedin because it's currently at the maximum version that matches its specified semver range
+124 info outdated updating [ [ 'D:\\Burberry\\dev',
+124 info outdated     'adaro',
+124 info outdated     '0.1.10',
+124 info outdated     'git',
+124 info outdated     'git',
+124 info outdated     'git://github.com/krakenjs/adaro.git#v2.x' ] ]
+125 verbose install where, what [ 'D:\\Burberry\\dev',
+125 verbose install   [ 'git://github.com/krakenjs/adaro.git#v2.x' ] ]
+126 silly cache add args [ 'git://github.com/krakenjs/adaro.git#v2.x', null ]
+127 verbose cache add spec git://github.com/krakenjs/adaro.git#v2.x
+128 silly cache add parsed spec { raw: 'git://github.com/krakenjs/adaro.git#v2.x',
+128 silly cache add   scope: null,
+128 silly cache add   name: null,
+128 silly cache add   rawSpec: 'git://github.com/krakenjs/adaro.git#v2.x',
+128 silly cache add   spec: 'git+ssh://git@github.com/krakenjs/adaro.git#v2.x',
+128 silly cache add   type: 'hosted',
+128 silly cache add   hosted:
+128 silly cache add    { type: 'github',
+128 silly cache add      ssh: 'git@github.com:krakenjs/adaro.git#v2.x',
+128 silly cache add      sshUrl: 'git+ssh://git@github.com/krakenjs/adaro.git#v2.x',
+128 silly cache add      httpsUrl: 'https://github.com/krakenjs/adaro.git#v2.x',
+128 silly cache add      directUrl: 'https://raw.githubusercontent.com/krakenjs/adaro/v2.x/package.json' } }
+129 info maybeGithub Attempting git://github.com/krakenjs/adaro.git#v2.x from git://github.com/krakenjs/adaro.git#v2.x
+130 verbose addRemoteGit git-github-com-krakenjs-adaro-git-504a1878 not in flight; caching
+131 verbose stack TypeError: Cannot read property 'trim' of undefined
+131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\cache\add-remote-git.js:98:31
+131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\git.js:50:14
+131 verbose stack     at F (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:40:25)
+131 verbose stack     at E (C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:43:29)
+131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\which\which.js:54:16
+131 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+132 verbose cwd D:\Burberry\dev
+133 error Windows_NT 6.3.9600
+134 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update" "--save"
+135 error node v0.12.2
+136 error npm  v2.7.4
+137 error Cannot read property 'trim' of undefined
+138 error If you need help, you may report this error at:
+138 error     <https://github.com/npm/npm/issues>
+139 verbose exit [ 1, true ]

@@ -1,0 +1,339 @@
+@font-face {
+    font-family: BurberryCapitalsSmallRegular;
+    src:url(../../fonts/burberrycapitalssmall_0-webfont.woff) format('woff');
+    font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+    font-family: BurberryCapitalsRegular;
+    src:url(../../fonts/burberrycapitals_1-webfont.woff) format('woff');
+    font-weight:normal;
+	font-style:normal;
+}
+
+
+.body-product_listing {
+  background-color: #f5f5f5;
+  color : #999;
+  /*background-color: #A5A2A2;*/
+}
+
+.logo {
+  color: #999999;
+  font-size: 107.69%;
+  height: 11px;
+  margin: 10px auto;
+  width: 140px;
+}
+
+.logo a {
+  background: url("../../images/shared_v5.png") no-repeat scroll 0 -393px transparent;
+  display: block;
+  text-indent: -9999px;
+  height: 100%;
+  width: 100%;
+}
+
+.header_top {
+	background-color: #171717;
+  border-bottom: 1px solid #232323;
+  height: 29px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-width: 1024px;
+  z-index: 999;
+}
+.shop-menu{
+	text-align: center;
+}
+.shop-menu ul {text-align: justify;}
+.shop-menu ul::after {width: 100%; display: inline-block; content: "."; visibility: hidden;}
+.shop-menu ul li {padding-left: 1px; padding-right: 1px; display: inline-block;}
+.shop-menu ul li a {
+	background: #272727;
+  	width: 136px;
+  	color: #999;
+  	font-family: "BurberryCapitalsSmallRegular", Arial, sans-serif;
+  	font-size: 0.65em;
+  	line-height: 1.4em;
+  	padding: 10px 19px 10px 19px;
+    text-align: center;
+    height: 40px;
+}
+
+.breadcrumb {
+   background-color: #f5f5f5;
+   margin-bottom: 0px;
+}
+
+.header-middle .container .row {
+	border: 0px solid #000;
+}
+
+.page-heading{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-family: BurberryCapitalsRegular, Arial, sans-serif;
+	  color: #f80;
+	  line-height: 1.143;
+	  font-size: 127.27%;
+}
+
+.breadcrumb li a {
+	color: #959595;
+  font-size:12px;
+}
+
+.breadcrumb li.active {
+	color: #f80;
+   font-size:12px;
+}
+
+.category-products .panel-default .panel-heading {
+  background-color: #272727;
+ }
+
+ .category-products {
+  border: 1px solid #959595;
+}
+
+.product-image-wrapper {
+  border: 1px solid #ebebeb;
+    height: 410px;
+ }
+
+ .product-overlay {
+ 	background: #f5f5f5;
+ 	opacity: 0.5;
+  /*background: #d6ba9d;*/
+}
+
+.txtAlign-left{
+	text-align: left;
+}
+.txtAlign-right{
+	text-align: right;
+}
+
+.txtAlign-center{
+	text-align: center;
+}
+
+.mouse-click-pointer{
+	cursor: pointer;
+}
+
+.border-top{
+	border-top : 1px SOLID #cccccc;	
+}
+
+.resultRow{
+	margin: 15px 0px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+}
+
+
+.btn-default{
+	/*color : #999;
+	border: none;
+	background-color: #fff;*/
+	font-family: "BurberryCapitalsSmallRegular", Arial, sans-serif;
+  	font-size: 0.65em;
+  	line-height: 1.4em;
+	height : 40px;
+	text-align: center;
+	word-break: break-all;
+
+  color: #333;
+  background-color: #ebebeb;
+  border-color:#ebebeb;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default  {
+    color: #f80;  
+  background-color: #fff;
+}
+
+.mainmenu .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default  {
+    border:none;
+}
+
+.list-group{
+	border : 1px solid 	#272727;
+}
+.list-group-item{
+	background-color: #fff;
+	/*border :1px solid #272727;	*/
+}
+
+.color-pallet-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #696763;
+}
+
+
+#cpDiv {
+  padding-left: 5px;
+  padding-bottom: 15px;
+}
+.panel{
+	background-color:#fff;
+}
+.left-sidebar .panel-body{
+	padding : 0px;
+}
+
+.productinfo p.product-price-amount {
+  color: #696763;
+  font-family: "BurberryCapitalsSmallRegular", serif;
+  font-size: 100%;
+}
+
+@media (max-width: 1199px) {
+  .product-image-wrapper {
+    height: 340px;
+  }
+
+  .evo-pop {
+    padding-left: 4px !important;
+  }
+
+  .evo-palette td {
+    padding: 3.7% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .product-image-wrapper {
+    height: 290px;
+  }
+
+.evo-palette td {
+    padding: 3.3% !important;
+  }
+}
+
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #e5e5e5;
+  border-color: #ebebeb;
+}
+
+.panel-default {
+  border-color: #ebebeb;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+  border-color: #ccc;
+
+}
+
+.dropdown-menu li a {
+    color: #5b5b5b;
+}
+
+.btn-default {
+  font-size: 0.75em;
+}
+
+.product-color ul {
+  padding-left: 0px;
+}
+
+.product-color ul li {
+    display: block;
+    height: 20px;
+  width: 30px;
+  background-color: aliceblue;
+  list-style: none;
+  border: 1px solid #A3A3A3;
+  float: left;
+  margin-right: 10px;
+}
+
+.product-information {
+  border: 0px solid #F7F7F0;
+    padding-left: 0px;
+  padding-top: 0px;
+}
+
+.product-price {
+  margin: 0px;
+}
+
+.select-size {
+    margin: 0px !important;
+  width: 264px;
+  text-align: left;
+}
+
+.select-quantity {
+    margin: 0px !important;
+  width: 20px;
+  text-align: left;
+}
+
+.select-size-menu {
+    width: 100%;
+  border: 0px solid #595959 !important;
+}
+
+.live-chat-row {
+    border-bottom: 1px solid #40403E;
+  border-top: 1px solid #40403E;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.recommended-product img {
+    width: inherit; 
+}
+
+.btn-group-justified    { border: 1px solid #ebebeb;}
+.dropdown-toggle:hover, 
+.dropdown-toggle:focus, 
+.dropdown-toggle:active, 
+.open .dropdown-toggle.btn-default  { color:#ccc; border: 1px solid #ebebeb;}
+.btn.dropdown-toggle:first-child  { color:#999; border-radius: 4px 4px 0 0; background: #fff;}
+#dropdown_lbl_txt                 { color:#f80;}
+.mainmenu .btn                    { color:#000;}
+.mainmenu .btn:hover              { color:#f80;}
+
+.btn.dropdown-toggle:hover,
+.btn.dropdown-toggle:focus,
+.btn.dropdown-toggle:active,
+.btn.dropdown-toggle.active      { border:1px solid #ebebeb;}
+.dropdown-menu.pull-right       { left:0;} 
+.dropdown-menu>li>a             { line-height:2.428571; border-top: 1px solid #ebebeb; }
+.open>.dropdown-menu            {  margin-top: 0;  padding-top: 0; border-radius:0 0 4px 4px; border-top:none;}
+.dropdown-menu>li:first-child a { border-top:none; margin-top:0; padding-top:0;}
+img + .txtAlign-left            {  color: #5b5b5b;}
+.panel-title                    { font-size: 13px; font-weight: bold;}
+.recommended-product p          { color:#5b5b5b;}
+
+
+#details ul {
+  padding-left: 20px;
+}
+
+.tab-content>.tab-pane {
+  padding-left: 20px;
+}
+

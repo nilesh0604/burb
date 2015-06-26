@@ -1,0 +1,11 @@
+<div id="burb_breadcrum" class="row" style="padding-top: 10px; padding-bottom: 5px; opacity: 1;">
+	<ul class="breadcrumb text-center">
+		{#bread}
+			<li>
+				<a id="bc1" href="{url}">{name}</a>
+			</li>
+		{/bread}
+	</ul>
+</div>
+      
+<h1 class="text-center page-heading" id="burb_PageHead" style="opacity: 1;">{name}</h1>

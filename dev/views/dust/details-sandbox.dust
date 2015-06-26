@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		{>"views/dust/burb-head"/}
+	</head>
+	<body class="body-product_listing">
+		<div id="page_header" class="container">
+			{>"views/dust/top-header"/}
+			{>"views/dust/top-nav"/}
+			{>"views/dust/burb-breadcrumb"/}
+		</div>
+		<div id="page_container" class="container">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 padding-right">
+						<div class="product-details">
+							<div class="col-sm-4">
+								<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+								  <!-- Indicators -->
+									<ol class="carousel-indicators">
+										{#media.gallery}
+											<li data-target="#myCarousel" data-slide-to="{$idx}" class="{@eq key="{$idx}" value="0"}active{/eq}">
+											</li>
+										{/media.gallery}
+									</ol>
+									<!-- Wrapper for slides -->
+									<div class="carousel-inner" role="listbox" style="height:600px;">
+										{#media.gallery}
+											<div class="item {@eq key="{$idx}" value="0"}active{/eq}" style="padding-left:0px;">
+												<a>
+													<img src="{image}?fit=fit,1&wid=450&resMode=sharp2&fmt=jpeg" alt="">
+												</a>
+											</div>
+										{/media.gallery}
+									</div>
+
+								  <!-- Left and right controls -->
+									<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>							
+							</div>
+							
+							<div class="col-sm-8">
+								<div class="product-information">
+									<h1 class="product-price">{price}</h1>
+									<p>Item Number: {productId}</p>
+									<p style="color:#ffffff;">Colour: <span  style="color:#696763;   margin-bottom: 0px;" id="colorName">{swatchLable}</span> </p>
+									<div class="row" style="  height: 55px;">
+										<div class="col-sm-12" style="margin-top: -10px;">
+											<div class="product-color">
+												<ul>
+													{#productFamily}
+														<li >
+															<a href=""><img title="{media.label}" class="product-color-image" src="{media.image}?fit=fit,1&wid=30&resMode=sharp2&fmt=jpeg" alt=""></a>
+														</li>
+													{/productFamily}
+												</ul>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row" style="margin-top: -10px;">
+										<div class="col-sm-5 {@eq key="{productSizes}.length" value="1"}hide{/eq}">
+											<div style="clear: left; width: 300px;">
+												<span>Size</span>
+												<span style="color:#696763; float: right;">Size and Fitting Guide</span>
+												<div class="btn-group" >
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+														<span class="select-size">Select UK Size</span> 
+														<span class="caret" style="margin-top: 10px;"></span>
+													</button>
+													<ul class="dropdown-menu select-size-menu" role="menu">
+														{#productSizes}
+															<li><a>{label}</a></li>
+														{/productSizes}
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-7">
+											<div style=" width: 64px;">
+												<span>Quantity</span>
+												<div class="btn-group" >
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+														<span class="select-quantity">1</span> 
+														<span class="caret" style="margin-top: 10px;"></span>
+													</button>
+													<ul class="dropdown-menu select-size-menu" role="menu">
+														<li><a>2</a></li>
+														<li><a>3</a></li>
+														<li><a>4</a></li>
+														<li><a>5</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row" style="margin-top: 30px;">
+										<div class="col-sm-12"> 
+											<h5 style="color:#ffffff; font-weight: bold;">
+												COMPLIMENTARY SHIPPING
+											</h5>
+											<P style="font-size: 13px;">
+												Enjoy complimentary shipping within 1-5 days of shipping along with free returns
+											</P>
+											<h5 style="color:#ffffff; font-weight: bold;">
+												ENJOY FREE COLLECTION-IN-STORE
+											</h5>
+											<p style="font-size: 13px;">
+												You can now shop online at Burberry.com and collect your order in selected stores as early as the following day. Items can be collected at your convenience and can be returned using our free Returning your Purchase process. <a href="javascript:void(0)" style="color: #696763;">Find out more</a>
+											</p>
+										</div>
+									</div>
+									
+									<div class="row" style="margin-top: 30px; margin-bottom: 30px;">
+										<div class="col-sm-12"> 
+											<div style="width:auto; float: left; padding-left:1px; padding-right:25px;">
+												<button style="width: 220px;" class="btn btn-default" type="submit">Checkout</button>
+											</div>
+											<div style="width:auto; float: left;">
+												<button style="width: 220px;"  class="btn btn-default" type="submit">Add to Bag</button>
+											</div>                                
+										</div>
+									</div>
+									
+									<hr style="border-color: #696763;" />
+									<div class="row live-chat-row" >
+										<div class="col-sm-4" style="margin-left : -15px;">
+											More questions? Contact us or <br>talk to our online help staff.
+										</div>
+										<div class="col-sm-8">
+											<button style="width: 220px;" class="btn btn-default" type="submit">Live Chat</button>
+										</div>
+									</div>
+									<hr style="border-color: #696763;" />
+									
+								</div>
+								<!--/product-information-->
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<!-- Tabs Starting Here -->
+				<div class="category-tab shop-details-tab"><!--category-tab-->
+					<div class="col-sm-12">
+						<ul class="nav nav-tabs nav-justified">
+							<li class="active"><a href="#details" class="active" data-toggle="tab">Details and Description</a></li>
+							<li><a href="#size" data-toggle="tab">Size and Fitting</a></li>
+							<li><a href="#shipping" data-toggle="tab">Shipping, Returns and Exchange</a></li>
+							
+						</ul>
+					
+						<div class="tab-content">
+							<div class="tab-pane fade in active" id="details" >
+								<b>
+									Product Description
+								</b>
+									{productDescription|s}
+								<b>
+									Product Features
+								</b>
+									{productFeatures|s}
+									<div id="scarf_image_conainer" class="{@eq key="{scarf}" value="false"}hide{/eq}">
+										<img class="b-lazy b-loading product-color-image" data-src="/images/sliced/scarf-1.jpg" width="95%" alt="">
+										<img class="b-lazy b-loading product-color-image" data-src="/images/sliced/scarf-2.jpg" width="95%" alt="">
+										<img class="b-lazy b-loading product-color-image" data-src="/images/sliced/scarf-3.jpg" width="95%" alt="">
+										<img class="b-lazy b-loading product-color-image" data-src="/images/sliced/scarf-4.jpg" width="95%" alt="">
+										<img class="b-lazy b-loading product-color-image" data-src="/images/sliced/scarf-5.jpg" width="95%" alt="">
+									 </div>
+							</div>
+							
+							<div class="tab-pane fade" id="size" >
+								<div class="row"> 
+									<div class="col-sm-6">
+										<div class="col-sm-4">
+											<b>SKU Id</b>
+										</div>
+										<div class="col-sm-4">
+											<b>Size</b>
+										</div>
+										<div class="col-sm-4">
+											<b>Quantity</b>
+										</div>
+										
+										{#productSizes}
+											<div class="col-sm-4">
+												{sku}
+											</div>
+											<div class="col-sm-4">
+												{label}
+											</div>
+											<div class="col-sm-4">
+												{stock_quantity}
+											</div>
+										{/productSizes}
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="shipping" >
+								<ul>
+									{#shippingDetails}
+										<li>
+											<b>
+												{title}
+											</b>
+											<p>
+												{message}
+											</p>
+										</li>
+									{/shippingDetails}
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Tabs ends Here -->
+				<!-- Recommended Products Starts Here -->
+				<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Recommended Products</h3>
+						</div>
+						<div class="panel-body">
+							<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									{#recommendations}
+										{@eq key="{$idx}" value="0"}<div class="item active">{/eq}
+										{@eq key="{$idx}" value="4"}<div class="item">{/eq}
+											<div style="width:258px; height:auto; float:left; padding : 0px 15px;">
+												<div class="product-image-wrapper" style="height:500px;">
+													<div class="single-products">
+														<div class="productinfo recommended-product">
+															<img src="{image}" alt="" />
+															<p class="txtAlign-left name" style="height:40px;">{name}</p>
+															<p class="txtAlign-left price" >{price.current.formatted_value}</p>
+															<div class="row" style="padding:0px 10px;">
+																<div class="col-sm-12" style="height:auto;">
+																	{@repeat times="{number_of_colours}"}
+																		<div class="{@gte key="{$idx}" value="8"}hide{/gte}" style="width:15px; height:15px; float:left; margin-right: 2px; margin-bottom:2px; border : 1px groove #ffffff; background-color : #{randomColor.get};">
+																		</div>	
+																	{/repeat}
+																</div>										
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										{@eq key="{$idx}" value="0"}</div>{/eq}
+										{@eq key="{$idx}" value="4"}</div>{/eq}
+									{/recommendations}
+								</div>	
+								<a class="left recommended-item-control {@lte key="{recommendationsLen}" value="4"}hide{/lte}" href="#recommended-item-carousel" data-slide="prev">
+									<i class="fa fa-angle-left"></i>
+								</a>
+								<a class="right recommended-item-control {@lte key="{recommendationsLen}" value="4"}hide{/lte}" href="#recommended-item-carousel" data-slide="next">
+									<i class="fa fa-angle-right"></i>
+								</a>			
+							</div>
+						</div>
+					</div>					
+				<!-- Recommended Products Ends Here -->
+			</div>
+		</div>
+		<script type="text/javascript" src="/js/productdetails.js"></script>
+	</body>
+</html>

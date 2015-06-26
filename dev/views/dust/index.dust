@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{>"views/dust/burb-head"/}
+	</head>
+	<body class="body-product_listing">
+		<div id="page_header" class="container">
+			{>"views/dust/top-header"/}
+			{>"views/dust/top-nav"/}
+		</div>
+		<div id="page_container" class="container">
+			<div style="position: relative;">
+				<div style="padding-top: 200px">
+					<div class="spinner dark" style="margin: 0px auto 0px;"></div>
+				</div>
+				<div id="container_image" class="row txtAlign-center" style="padding-bottom:25px;position: absolute;top: 0px;">
+					<img src="/images/EKD-BLK.jpg" width="100%">
+				</div>
+			</div>
+		</div>
+		
+		<script id="app_loader" type="text/template" class="template">
+			<div class="app-loader">
+				<div class="spinner dark"></div>
+			</div>
+		</script>
+		<!-- <script type="text/javascript" src="/js/utils.js"></script> -->
+	</body>
+</html>

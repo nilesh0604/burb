@@ -1,0 +1,62 @@
+<div class="row">
+	<div class="col-sm-4">
+		<!-- start - col small 4-->
+		<div class="contactinfo logo">
+			<a href="/" title="Burberry">
+				BURBERRY
+            </a>
+		</div>
+		<!-- end - col small 4-->
+	</div>
+		
+	<div class="col-sm-8">
+		<!-- start - col small 4-->
+		<div class="top-menu pull-right">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#">
+					<i class="glyphicon glyphicon-user">
+					</i>
+						Login | Register
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<i class="glyphicon glyphicon-map-marker">
+						</i>
+						Store Locator
+					</a>
+				</li>
+				<li>
+					<a href="checkout.html">
+						<!-- last-minute change, should be a font glyphicon later -->
+						<img src="/images/collect_in_store_2.png" style="width: 12px; margin-bottom: 3px">
+							Collect-In-Store
+					</a>
+				</li>
+				<li>
+					<a href="cart.html">
+						<i class="glyphicon glyphicon-earphone">
+						</i>
+						Customer Service
+					</a>
+				</li>
+				<li>
+					<a href="login.html">
+						<i class="glyphicon glyphicon-search">
+						</i>
+						Search
+					</a>
+				</li>
+				<li>
+					<a href="login.html">
+						<i class="minicart-count">
+						</i>
+						(0)
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- end - col small 4-->
+	</div>
+</div>

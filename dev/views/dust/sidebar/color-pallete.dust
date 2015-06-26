@@ -1,0 +1,129 @@
+<div class="panel panel-default">
+	<div class="panel-heading" style="height: 35px;">
+		<h3 class="panel-title pull-left">
+			Color
+		</h3>
+		<h3 class="panel-title pull-right">
+			<a href="javascript:void();">
+				Reset
+			</a>
+		</h3>
+	</div>
+	<div class="panel-body" style="padding: 2%; padding-bottom: 4%; padding-right: 3%;">
+		<table class="evo-palette">
+		<tbody>
+		  <tr>
+			<th colspan="10">
+			</th>
+		  </tr>
+		  <tr>
+			<td style="background-color:#ffffff">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#000000">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#eeece1">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#1f497d">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#4f81bd">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#c0504d">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#9bbb59">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#8064a2">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#4bacc6">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#f79646">
+			  <span>
+			  </span>
+			</td>
+		  </tr>
+		  <tr>
+			<th colspan="10">
+			</th>
+		  </tr>
+		  <tr>
+			<td style="background-color:#c00000">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#ff0000">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#ffc000">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#ffff00">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#92d050">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#00b050">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#00b0f0">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#0070c0">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#002060">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#7030a0">
+			  <span>
+			  </span>
+			</td>
+		  </tr>
+		  <tr>
+			<th colspan="10">
+			</th>
+		  </tr>
+		  <tr>
+			<td style="background-color:#001060">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#004060">
+			  <span>
+			  </span>
+			</td>
+			<td style="background-color:#003060">
+			  <span>
+			  </span>
+			</td>
+		  </tr>
+		</tbody>
+		</table>
+	</div>
+</div>
+
